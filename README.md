@@ -1,2 +1,4 @@
 # CS-4348-Piping-Project
 A project meant to simulate piping in Java
+
+The main file is the Driver file which runs both Encryption and Logger files. The code's purpose is to decrypt/encrypt a string based on the Vigenère cipher, which it achieves so by using a key input by the user. Upon launch of the Driver file, the user is provided a few options and depending on what input is entered, various outputs are shown. The Encryption file does all the deciphering/ciphering of the user strings only after a key has been provided. The Logger file logs every input and output onto a newly created file. The files can work individually but the true effect of piping only shines when they all execute together thru the Driver file. A history option is available as well, which not only displays the user history, but also provides an option to use an entry in history as the new input. 
